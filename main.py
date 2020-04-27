@@ -1,5 +1,8 @@
-import cartas.py
+import cartas
 
-b1= cartas.creaBarajas()
-b2= cartas.creaBarajas()
+b1= cartas.creaBaraja()
+
+print(b1)
+
+
 
