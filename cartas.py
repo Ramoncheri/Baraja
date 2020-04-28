@@ -28,8 +28,8 @@ def barajar(b):
 
         bBarajada.append(cartaBaraj)
         
-
-    return bBarajada
+    b[:] =bBarajada
+    return b
 
 
 def repartir(b, players,cards):
@@ -45,3 +45,8 @@ def repartir(b, players,cards):
     return res
 
 
+def invertir(b):
+    for i in range (len(b)//2):
+        aux= b[i]
+        b[i]= b[-1-i]
+        b[-1-i]= aux
