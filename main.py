@@ -8,5 +8,9 @@ print(b1.naipes)
 #print(bB)
 print(bR)
 
+bRR= b1.repartir(3,1)
+print (bRR)
+
+
 
 
