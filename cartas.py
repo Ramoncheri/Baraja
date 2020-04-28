@@ -19,11 +19,11 @@ def barajar(b):
     
     bBarajada=[]
     for item in b:
-        ind= random.randint(0,39)
+        ind= random.randint(0,len(b)-1)
         cartaBaraj= b[ind]
         
         while cartaBaraj in bBarajada:
-            ind= random.randint(0,39)
+            ind= random.randint(0,len(b)-1)
             cartaBaraj= b[ind]
 
         bBarajada.append(cartaBaraj)
